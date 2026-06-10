@@ -23,5 +23,3 @@ jobs:
 
       - name: Desplegar a Surge
         run: surge ./ primer-parcial-keylin-rosario.surge.sh --token ${{ secrets.SURGE_TOKEN }}
-        env:
-          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
